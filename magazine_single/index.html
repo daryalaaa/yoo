@@ -3,14 +3,14 @@
 <head>
     <title>My Flipbook</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
     
     <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="turn.min.js"></script>
 
-    <style type="text/css">
+    <style>
         body {
             background: #ccc;
+            text-align: center;
         }
         #flipbook {
             width: 576px;
@@ -47,7 +47,7 @@
         <div style="background-image:url(pages/20.jpg);"></div>
     </div>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function() {
             $("#flipbook").turn({
                 width: 576,
